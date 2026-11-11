@@ -147,7 +147,7 @@ const LS = {
   set(k, v){ try{ localStorage.setItem('locales.'+k, JSON.stringify(v)) }catch(e){} }
 };
 const TIPOS = ['Strip center','Stand alone','Placa comercial','Local / otro','Mall / galería','Galpón / bodega','Derecho de llave'];
-const TIPOS_DEF = TIPOS.slice(0, 6);
+const TIPOS_DEF = TIPOS.slice(0, 5);  // galpón/bodega y derecho de llave apagados por defecto
 const DATA = window.BUSCADOR;
 const fav = new Set(LS.get('fav', [])), desc = new Set(LS.get('desc', [])), notas = LS.get('notas', {});
 const F = Object.assign({ciudades:null, ops:['arriendo','venta'], cal:['calza','cercano'], tipos:TIPOS_DEF.slice(),
