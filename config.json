@@ -1,0 +1,38 @@
+{
+  "busquedas": [
+    { "ciudad": "Concepción",   "slug": "concepcion-biobio",        "m2_min": 900,  "m2_max": 1000, "pedido": "900 a 1.000 m²" },
+    { "ciudad": "Recoleta",     "slug": "recoleta-metropolitana",   "m2_min": 1100, "m2_max": 1200, "pedido": "1.100 a 1.200 m²" },
+    { "ciudad": "Temuco",       "slug": "temuco-la-araucania",      "m2_min": 900,  "m2_max": 1100, "pedido": "1.000 m² (±10%)" },
+    { "ciudad": "Viña del Mar", "slug": "vina-del-mar-valparaiso",  "m2_min": 900,  "m2_max": 1100, "pedido": "1.000 m² (±10%)" },
+    { "ciudad": "Huechuraba",   "slug": "huechuraba-metropolitana", "m2_min": 810,  "m2_max": 990,  "pedido": "900 m² (±10%)" }
+  ],
+  "operaciones": ["arriendo", "venta"],
+  "tipo_portal": "comercial",
+
+  "_nota_tolerancias": "La busqueda en el portal se hace con un rango ampliado (tolerancia_busqueda) para tener mercado de referencia; 'cercano' = hasta tolerancia_cercano fuera del rango pedido.",
+  "tolerancia_busqueda": 0.35,
+  "tolerancia_cercano": 0.15,
+
+  "pesos_puntaje": {
+    "_nota": "Puntaje 0-100. precio_vs_mercado: UF/m2 vs mediana de la misma ciudad y operacion; calce_m2: 100 dentro del rango pedido, baja a 0 a 25% fuera; estacionamientos: 0 = 0, 15 o mas = 100; ubicacion: frente a avenida/ruta y esquina; tipo: strip center o stand alone 100, placa 80, local 50, mall/galeria 40.",
+    "precio_vs_mercado": 35,
+    "calce_m2": 25,
+    "estacionamientos": 15,
+    "ubicacion": 15,
+    "tipo": 10
+  },
+
+  "uf_respaldo": 41300,
+  "dolar_respaldo": 980,
+  "pausa_entre_requests_seg": [1.5, 3.5],
+  "refrescar_detalle_cada_dias": 7,
+
+  "publicar_github": {
+    "_nota": "Tras cada pasada sube dashboard.html a la rama gh-pages del repo (link para compartir).",
+    "activo": true,
+    "repo": "slira92/buscador-locales",
+    "url": "https://slira92.github.io/buscador-locales/"
+  },
+
+  "notificaciones": { "windows": true }
+}
