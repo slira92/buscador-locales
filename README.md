@@ -12,6 +12,7 @@ para un requerimiento multi-ciudad, en **arriendo y venta**, y las rankea en un 
 | Temuco | 1.000 m² | 900–1.100 | 765–1.265 |
 | Viña del Mar | 1.000 m² | 900–1.100 | 765–1.265 |
 | Huechuraba | 900 m² | 810–990 | 690–1.140 |
+| Coquimbo | 1.000 m² | 900–1.100 | 765–1.265 |
 
 ## Cómo funciona
 
