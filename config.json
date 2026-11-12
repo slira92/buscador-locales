@@ -5,7 +5,8 @@
     { "ciudad": "Temuco",       "slug": "temuco-la-araucania",      "m2_min": 900,  "m2_max": 1100, "pedido": "1.000 m² (±10%)" },
     { "ciudad": "Viña del Mar", "slug": "vina-del-mar-valparaiso",  "m2_min": 900,  "m2_max": 1100, "pedido": "1.000 m² (±10%)" },
     { "ciudad": "Huechuraba",   "slug": "huechuraba-metropolitana", "m2_min": 810,  "m2_max": 990,  "pedido": "900 m² (±10%)" },
-    { "ciudad": "Coquimbo",     "slug": "coquimbo-coquimbo",        "m2_min": 900,  "m2_max": 1100, "pedido": "1.000 m² (±10%)" }
+    { "ciudad": "Coquimbo",     "slug": "coquimbo-coquimbo",        "m2_min": 900,  "m2_max": 1100, "pedido": "1.000 m² (±10%)" },
+    { "ciudad": "La Serena",    "slug": "la-serena-coquimbo",       "m2_min": 900,  "m2_max": 1100, "pedido": "1.000 m² (±10%) — alternativa a Coquimbo" }
   ],
   "operaciones": ["arriendo", "venta"],
   "tipo_portal": "comercial",
